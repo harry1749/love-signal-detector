@@ -11,7 +11,7 @@ OpenAI의 GPT-4o 모델을 활용하여 프롬프트 엔지니어링을 수행�
 
 ### 🚀 실행 방법
 1. API Key 발급 (OpenAI)
-2. `homework_pe.ipynb` 실행 또는 `streamlit run app.py`
+2. `streamlit run app.py`
 
 ### 📊 프롬프트 전략
 - **Role:** 연애 전문 유튜버 페르소나 부여
