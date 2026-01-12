@@ -6,6 +6,16 @@
 
 <br>
 
+## 🌐 웹에서 바로 사용하기 (Web Demo)
+
+설치 없이 웹 브라우저에서 바로 실행해 볼 수 있습니다.
+
+1. **앱 접속:** 👉 **[그린라이트 감지기 바로가기](https://love-signal-detector-emv4rhslp7enfv8pqzrexc.streamlit.app/)**
+2. **API Key 입력:** 왼쪽 사이드바(Sidebar)에 본인의 **OpenAI API Key**를 입력합니다.
+    * *이 서비스는 OpenAI 유료 모델(GPT-4o)을 사용하므로 개인 키가 필요합니다.*
+    * *입력하신 키는 어디에도 저장되지 않으며, 오직 분석 용도로만 사용됩니다.*
+3. **분석 시작:** 대화 내용을 붙여넣고 버튼을 누르면 분석이 시작됩니다.
+
 ## 🛠 사용 기술 (Tech Stack)
 
 | 구분 | 기술 스택 |
@@ -36,9 +46,9 @@ love-signal-detector/
 ```
 <br>
 
-## 🚀 실행 방법 (Getting Started)
+## 💻 내 컴퓨터에서 실행하기 (Local Installation)
 
-이 프로젝트를 내 컴퓨터에서 실행하려면 아래 단계를 따라주세요.
+직접 코드를 수정하거나 로컬 환경에서 실행하려면 아래 단계를 따라주세요.
 
 1. 프로젝트 복제 (Clone)
 ```bash
@@ -64,8 +74,6 @@ OPENAI_API_KEY=sk-your-api-key-here
 ```bash
 streamlit run app.py
 ```
-
-실행 후 브라우저가 자동으로 열립니다. (주소: http://localhost:8501)
 
 ## 📊 프롬프트 전략 (Prompt Engineering)
 
